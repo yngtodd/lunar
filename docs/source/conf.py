@@ -55,7 +55,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'nuclei'
+project = u'lunar'
 copyright = u"2018, Todd Young"
 
 # The version info for the project you're documenting, acts as replacement
@@ -113,7 +113,7 @@ pygments_style = 'sphinx'
 # a list of builtin themes.
 html_theme = 'sphinx_rtd_theme'
 
-html_logo = "_static/img/nuclei.png"
+html_logo = "_static/img/LUNAR.png"
 html_favicon = "_static/img/favicon.png"
 
 # Theme options are theme-specific and customize the look and feel of a
@@ -191,7 +191,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'nucleidoc'
+htmlhelp_basename = 'lunardoc'
 
 
 # -- Options for LaTeX output ------------------------------------------
@@ -211,8 +211,8 @@ latex_elements = {
 # (source start file, target name, title, author, documentclass
 # [howto/manual]).
 latex_documents = [
-    ('index', 'nuclei.tex',
-     u'Nuclei Documentation',
+    ('index', 'lunar.tex',
+     u'Lunar Documentation',
      u'Todd Young', 'manual'),
 ]
 
@@ -242,8 +242,8 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'nuclei',
-     u'Nuclei Documentation',
+    ('index', 'lunar',
+     u'Lunar Documentation',
      [u'Todd Young'], 1)
 ]
 
@@ -257,11 +257,11 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    ('index', 'nuclei',
-     u'molecules Documentation',
+    ('index', 'lunar',
+     u'Lunar Documentation',
      u'Todd Young',
-     'nuclei',
-     'One line description of project.',
+     'Lunar',
+     "Algorithms for OpenAI's lunar lander.",
      'Miscellaneous'),
 ]
 

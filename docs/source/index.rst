@@ -1,7 +1,7 @@
-Nuclei Documentation
-=======================
+Lunar Documentation
+===================
 
-Nuclei is a library for the 2018 Kaggle Data Science Bowl.
+Lunar is a library for OpenAI's lunar lander.
 
 .. toctree::
    :maxdepth: 2
